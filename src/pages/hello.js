@@ -1,7 +1,8 @@
 import React from "react";
 import World from "./world";
 
-function Hello() {
+// http://localhost:3001/hello
+export default function Hello() {
   return (
     <>
       <h1>
@@ -13,5 +14,3 @@ function Hello() {
     </>
   );
 }
-
-export default Hello;
